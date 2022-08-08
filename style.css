@@ -1,0 +1,110 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
+
+* {
+  border:0px;
+  margin: 0px;
+  box-sizing: border-box;
+  /* background-color: hsl(30, 38%, 92%); */
+
+}
+
+.product-section{
+  /* justify-content: center; */
+  height: 100vh;
+  background-color: hsl(30, 38%, 92%);
+}
+
+.product-container{
+  display: flex;
+  width: 600px;
+  height: 70%;
+  margin: 0px auto;
+  justify-content: center;
+  position: relative;
+  top: 15vh;
+ }
+ 
+
+.product-img-container{
+  border-radius: 20px;
+  height: 100%;
+  width: 300px;
+}
+#product-image{
+  height: inherit;
+  width: inherit;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.product-detail-container{
+  padding-top: 20px;
+  padding-right: 30px;
+  background-color: white;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 25px;
+}
+
+.product-type{
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color:hsl(228, 12%, 48%);
+  font-size: 15px;
+  font-weight: 700;
+  font-family:'Montserrat', sans-serif;
+}
+
+.product-name{
+  text-transform: capitalize;
+  color:hsl(212, 21%, 14%);
+  font-size: 39px;
+  font-weight: 700;
+  font-family:'Fraunces', sans-serif;
+}
+
+.product-description{
+  font-size: 14px;
+  font-weight: 500;
+  font-family:'Montserrat', sans-serif;
+  color:hsl(228, 12%, 48%);
+  line-height: 25px;
+}
+
+.product-price-container{
+   margin-top: 15px;
+   display: flex;
+   justify-content: space-evenly;
+}
+
+.new-product-price{
+  font-size: 30px;
+  font-weight: 700;
+  font-family:'Fraunces', sans-serif;
+  color: hsl(158, 36%, 37%);
+}
+
+.old-product-price{
+  font-size: 14px;
+  font-weight: 500;
+  font-family:'Montserrat', sans-serif;
+  color:hsl(228, 12%, 48%);
+  padding-top: 10px;
+}
+
+.btn{
+  color: hsl(0, 0%, 100%);
+  border-radius: 10px;
+  height: 45px;
+  margin-top: 15px;
+  background-color: hsl(158, 36%, 37%);;
+}
+
+.btn:hover{
+  background-color: rgb(14, 72, 14);
+  cursor: pointer;
+}
