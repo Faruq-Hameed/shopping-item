@@ -11,9 +11,11 @@
 }
 
 .product-section{
-  /* justify-content: center; */
   height: 100vh;
   background-color: hsl(30, 38%, 92%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .product-container{
@@ -21,9 +23,7 @@
   width: 600px;
   height: 70%;
   margin: 0px auto;
-  justify-content: center;
-  position: relative;
-  top: 15vh;
+
  }
  
 
